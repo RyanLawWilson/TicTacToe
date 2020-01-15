@@ -6,7 +6,6 @@ body {
 #shell {
     width: 950px;
     margin: 0 auto;
-    background-color: green;
 }
 
 /*Displays the popup when you start the game*/
@@ -85,7 +84,7 @@ table tr:nth-child(3) td:nth-child(3) {
 }
 
 .O {
-    transition: transform 0.3s;
+    transition: transform .3s;
     opacity: 1;
     position: absolute;
     background-image: url("../images/avatarO.png");
@@ -95,7 +94,7 @@ table tr:nth-child(3) td:nth-child(3) {
 }
 
 .X {
-    transition: transform 0.3s;
+    transition: transform .3s;
     opacity: 1;
     position: absolute;
     background-image: url("../images/avatarX.png");
@@ -258,4 +257,8 @@ table tr:nth-child(3) td:nth-child(3) {
     transition-property: background box-shadow;
     transition: 0.2s;
     transition-timing-function: ease-in-out;
+}
+
+.square {
+    height: 196;
 }

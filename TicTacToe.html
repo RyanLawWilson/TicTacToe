@@ -44,54 +44,33 @@
             </div>
 
 
-
+            <!------------------------------
+                I moved the onclick="square#Animate()" methods
+                to the photo container because the squares had a
+                height of zero and were unclickable.  I tried changing
+                it but nothing would work.
+            -------------------------------->
             <table>
                 <tr>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square0" onclick="square1Animate()">
+                        <div class="photo-container" onclick="square1Animate()">
+                            <div class="square" id="square0">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
                         </div>
                     </td>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square1" onclick="square2Animate()">
+                        <div class="photo-container" onclick="square2Animate()">
+                            <div class="square" id="square1">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
                         </div>
                     </td>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square2" onclick="square3Animate()">
-                                <div class="O"></div>
-                                <div class="X"></div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="photo-container">
-                            <div class="square" id="square3" onclick="square4Animate()">
-                                <div class="O"></div>
-                                <div class="X"></div>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="photo-container">
-                            <div class="square" id="square4" onclick="square5Animate()">
-                                <div class="O"></div>
-                                <div class="X"></div>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="photo-container">
-                            <div class="square" id="square5" onclick="square6Animate()">
+                        <div class="photo-container" onclick="square3Animate()">
+                            <div class="square" id="square2">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
@@ -100,24 +79,50 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square6" onclick="square7Animate()">
+                        <div class="photo-container" onclick="square4Animate()">
+                            <div class="square" id="square3">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
                         </div>
                     </td>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square7" onclick="square8Animate()">
+                        <div class="photo-container" onclick="square5Animate()">
+                            <div class="square" id="square4">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
                         </div>
                     </td>
                     <td>
-                        <div class="photo-container">
-                            <div class="square" id="square8" onclick="square9Animate()">
+                        <div class="photo-container" onclick="square6Animate()">
+                            <div class="square" id="square5">
+                                <div class="O"></div>
+                                <div class="X"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="photo-container" onclick="square7Animate()">
+                            <div class="square" id="square6">
+                                <div class="O"></div>
+                                <div class="X"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photo-container" onclick="square8Animate()">
+                            <div class="square" id="square7">
+                                <div class="O"></div>
+                                <div class="X"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photo-container" onclick="square9Animate()">
+                            <div class="square" id="square8">
                                 <div class="O"></div>
                                 <div class="X"></div>
                             </div>
